@@ -11,7 +11,7 @@ namespace ProgamacaoComGit
         static void Main(string[] args)
         {
             Aluno a1 = new Aluno();
-            a1.nome = "Maria";
+            a1.nome = "João";
             a1.anoNascimento = 1993;
 
             Console.WriteLine($"Maria sua idade é {a1.calcularIdade()}");
